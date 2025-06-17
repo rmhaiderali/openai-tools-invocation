@@ -26,8 +26,8 @@ parameters = {
 
 # Chat Completions API
 response = client.chat.completions.create(
-    model="gpt-4o-mini",
-    # model="anthropic/claude-sonnet-4",
+    # model="gpt-4o-mini",
+    model="anthropic/claude-sonnet-4",
     # model="google/gemini-2.0-flash-001",
     messages=[{"role": "user", "content": "What is the location of ip 8.8.8.8?"}],
     tools=[

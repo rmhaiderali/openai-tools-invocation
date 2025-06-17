@@ -8,4 +8,5 @@ dependencies = [
     "dotenv>=0.9.9",
     "openai>=1.85.0",
     "requests>=2.32.4",
+    "rich>=14.0.0",
 ]
